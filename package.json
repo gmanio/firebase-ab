@@ -1,0 +1,32 @@
+{
+  "name": "firebase-ab",
+  "version": "1.0.0",
+  "description": "A/B testing for UI",
+  "scripts": {
+    "start": "rimraf dist && parcel serve ./index.html",
+    "build": "rimraf dist && parcel build ./index.html --public-url .",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "JimanPark@2020",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmanio/firebase-ab.git"
+  },
+  "homepage": "https://github.com/gmanio/firebase-ab#readme",
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.0.0",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.25",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "16.9.5",
+    "@types/styled-components": "4.4.2",
+    "typescript": "^3.7.5"
+  }
+}

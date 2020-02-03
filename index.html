@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Firebase AB testing</title>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-remote-config.js"></script>
+
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyC_O-wi0Gnyvw7awfzMXcCrKHBvhH9PsoA",
+      authDomain: "gapi-1559962404480.firebaseapp.com",
+      databaseURL: "https://gapi-1559962404480.firebaseio.com",
+      projectId: "gapi-1559962404480",
+      storageBucket: "gapi-1559962404480.appspot.com",
+      messagingSenderId: "328243791628",
+      appId: "1:328243791628:web:52ac6dfa8c3ee6e65f2b29",
+      measurementId: "G-S766442V8P"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</head>
+<body>
+<div id="root"></div>
+<script src="src/index.tsx"></script>
+</body>
+</html>
