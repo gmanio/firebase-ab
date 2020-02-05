@@ -27,8 +27,10 @@
       measurementId: "G-S766442V8P"
     };
     // Initialize Firebase
+
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
+    firebase.analytics().logEvent('notification_received');
   </script>
 </head>
 <body>
